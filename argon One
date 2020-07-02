@@ -1,2 +1,11 @@
 set-up
 curl https://download.argon40.com/argon1.sh | bash
+
+Argo state |      Action     | function
+Off           short preess       On
+On                >=3          soft shutdown
+On                <3           Nothing
+On              Double Tap       Reboot
+On              >=5           Forced Shutdown
+
+https://www.raspberrypi.org/documentation/configuration/external-storage.md#:~:text=You%20can%20connect%20your%20external,%2DDRIVE%2DLABEL%3E%20location.
